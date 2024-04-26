@@ -1,0 +1,46 @@
+
+
+h1{
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding:50px;
+}
+input, button{
+  padding: 5px 10px;
+ 
+}
+
+*{
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#cards{
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cards > li {
+  flex-basis: 20%;
+  margin-bottom: 20px;
+}
+
+#cards > li > img {
+  width: 80%;
+}
+
+
+body{
+  color: white;
+  background-color: black;
+}
+
+
+
