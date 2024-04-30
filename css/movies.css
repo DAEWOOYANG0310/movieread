@@ -22,9 +22,8 @@ ul {
 #cards{
   border: 1px solid white;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
 }
 
 #cards > li {
@@ -42,5 +41,11 @@ body{
   background-color: black;
 }
 
+#searchForm{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center; 
+}
 
 
